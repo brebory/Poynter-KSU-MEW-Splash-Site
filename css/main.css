@@ -8,22 +8,24 @@ div, header, footer, p, ul, ol, li, nav, section, article {
 }
 
 body {
-	background: url('img/bkgd-01.png') center center no-repeat;
+	background: url('../img/bkgd-01.png') center center no-repeat;
 	background-size: cover;
 	font-size: 12px;
+	font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+
+
 
 }
 
 .main-header {
 	border-bottom: solid 3px rgb(189, 214, 49);
 	padding: 0.5em 0;
+	text-align: center;
 }
 
 .main-content {
 	color: rgb(109, 111, 113);
-	font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 1em;
-	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -32,20 +34,28 @@ body {
 	font-size: 3em;
 	font-weight: bold;
 	text-shadow: 2px 2px 0px rgb(109, 111, 113);
+	margin-bottom: 0;
 }
 
 .tagline {
 	font-size: 1.5em;
+	margin: 0.25em 0;
 }
 
 .highlight {
 	color: rgb(189, 214, 49);
 }
 
+.main-footer {
+	font-size: 0.75em;
+	text-align: center;
+	margin: 0.25em 0;
+}
+
 
 /* AddThisEvent (add to your existing CSS) */
-.addthisevent-drop 						{width:170px;display:inline-block;position:relative;z-index:999998;background:#2878eb;font-family:"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;color:#fff!important;text-decoration:none;font-size:15px;text-decoration:none;padding:12px 20px 12px 15px;}
-.addthisevent-drop:hover 				{color:#fff;font-size:15px;text-decoration:none;background-color:#2c84f4;}
+.addthisevent-drop 						{width:170px;display:inline-block;position:relative;z-index:999998;background:rgb(189, 214, 49);font-family:"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;color:#fff!important;text-decoration:none;font-size:15px;text-decoration:none;padding:12px 20px 12px 15px;}
+.addthisevent-drop:hover 				{color:#fff;font-size:15px;text-decoration:none;background-color:rgb(200, 204, 59);}
 .addthisevent-drop:active 				{top:1px;}
 .addthisevent-drop .arrow 				{width:15px;height:10px;position:absolute;top:50%;right:15px;margin-top:-5px;background:url(../img/icon-arrow.png) no-repeat;}
 .addthisevent-selected 					{background-color:#2c84f4;}
