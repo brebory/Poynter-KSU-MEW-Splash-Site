@@ -1,17 +1,53 @@
+/* Color guide:
+	gray:  rgb(109, 111, 113)
+	green: rgb(189, 214, 49)
+*/
+
 div, header, footer, p, ul, ol, li, nav, section, article {
 	box-sizing: border-box;
 }
 
 body {
-	background: url('img/bkgd.png') center center no-repeat;
+	background: url('img/bkgd-01.png') center center no-repeat;
 	background-size: cover;
+	font-size: 12px;
+
 }
+
+.main-header {
+	border-bottom: solid 3px rgb(189, 214, 49);
+	padding: 0.5em 0;
+}
+
+.main-content {
+	color: rgb(109, 111, 113);
+	font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.callout-text {
+	color: rgb(189, 214, 49);
+	font-size: 3em;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px rgb(109, 111, 113);
+}
+
+.tagline {
+	font-size: 1.5em;
+}
+
+.highlight {
+	color: rgb(189, 214, 49);
+}
+
 
 /* AddThisEvent (add to your existing CSS) */
 .addthisevent-drop 						{width:170px;display:inline-block;position:relative;z-index:999998;background:#2878eb;font-family:"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;color:#fff!important;text-decoration:none;font-size:15px;text-decoration:none;padding:12px 20px 12px 15px;}
 .addthisevent-drop:hover 				{color:#fff;font-size:15px;text-decoration:none;background-color:#2c84f4;}
 .addthisevent-drop:active 				{top:1px;}
-.addthisevent-drop .arrow 				{width:15px;height:10px;position:absolute;top:50%;right:15px;margin-top:-5px;background:url(icon-arrow.png) no-repeat;}
+.addthisevent-drop .arrow 				{width:15px;height:10px;position:absolute;top:50%;right:15px;margin-top:-5px;background:url(../img/icon-arrow.png) no-repeat;}
 .addthisevent-selected 					{background-color:#2c84f4;}
 .addthisevent_dropdown 					{width:215px;position:absolute;z-index:99999;padding:6px 0px 0px 0px;background:#fff;text-align:left;display:none;margin-top:2px;margin-left:-1px;border-top:1px solid #c8c8c8;border-right:1px solid #bebebe;border-bottom:1px solid #a8a8a8;border-left:1px solid #bebebe;-webkit-box-shadow:1px 3px 6px rgba(0,0,0,0.15);-moz-box-shadow:1px 3px 6px rgba(0,0,0,0.15);box-shadow:1px 3px 6px rgba(0,0,0,0.15);}
 .addthisevent_dropdown span 			{display:block;line-height:110%;background:#fff;text-decoration:none;font-size:14px;color:#6d84b4;padding:8px 10px 9px 15px;}
