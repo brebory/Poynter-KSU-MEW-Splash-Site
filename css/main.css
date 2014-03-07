@@ -42,7 +42,7 @@ body {
 
 .date {
 	margin: 0.25em auto;
-	margin-bottom: 2em;
+	margin-bottom: 5em;
 }
 
 .tagline {
@@ -51,7 +51,7 @@ body {
 }
 
 .tagline + .tagline {
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 }
 
 .highlight {
@@ -63,13 +63,13 @@ body {
 	font-size: 0.75em;
 	text-align: center;
 	margin: 0.25em auto;
-	margin-top: 50em;
+	margin-top: 40em;
 }
 
 
 /* AddThisEvent (add to your existing CSS) */
 .addthisevent-drop 						{width:170px;display:inline-block;position:relative;z-index:999998;background:rgb(189, 214, 49);font-family:"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;color:#fff!important;text-decoration:none;font-size:15px;text-decoration:none;padding:12px 20px 12px 15px;}
-.addthisevent-drop:hover 				{color:#fff;font-size:15px;text-decoration:none;background-color:rgb(200, 204, 59);}
+.addthisevent-drop:hover 				{color:#fff;font-size:15px;text-decoration:none;background-color:rgb(195, 204, 59);}
 .addthisevent-drop:active 				{top:1px;}
 .addthisevent-drop .arrow 				{width:15px;height:10px;position:absolute;top:50%;right:15px;margin-top:-5px;background:url(../img/icon-arrow.png) no-repeat;}
 .addthisevent-selected 					{background-color:#2c84f4;}
