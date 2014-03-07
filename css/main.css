@@ -13,9 +13,7 @@ body {
 	font-size: 12px;
 	font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-
-
-
+	height: 100%;
 }
 
 .main-header {
@@ -39,7 +37,7 @@ body {
 
 .tagline {
 	font-size: 1.5em;
-	margin: 0.25em 0;
+	margin: 0.25em auto;
 }
 
 .highlight {
@@ -49,7 +47,7 @@ body {
 .main-footer {
 	font-size: 0.75em;
 	text-align: center;
-	margin: 0.25em 0;
+	margin: 0.25em auto;
 }
 
 
