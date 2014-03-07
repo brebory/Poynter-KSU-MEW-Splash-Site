@@ -19,6 +19,7 @@ body {
 }
 
 .main-header {
+	background: white;
 	border-bottom: solid 3px rgb(189, 214, 49);
 	padding: 0.5em 0;
 	text-align: center;
