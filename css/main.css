@@ -59,10 +59,11 @@ body {
 }
 
 .main-footer {
+	color: rgb(109, 111, 113);
 	font-size: 0.75em;
 	text-align: center;
 	margin: 0.25em auto;
-	margin-top: 30em;
+	margin-top: 50em;
 }
 
 
