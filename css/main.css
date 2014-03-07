@@ -7,13 +7,15 @@ div, header, footer, p, ul, ol, li, nav, section, article {
 	box-sizing: border-box;
 }
 
-body {
-	background: url('../img/bkgd-01.png') center center no-repeat;
+html {
+	background: url('../img/bkgd-01.png') no-repeat center center fixed;
 	background-size: cover;
+}
+
+body {
 	font-size: 12px;
 	font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	height: 100%;
 }
 
 .main-header {
@@ -25,6 +27,7 @@ body {
 .main-content {
 	color: rgb(109, 111, 113);
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .callout-text {
@@ -38,6 +41,10 @@ body {
 .tagline {
 	font-size: 1.5em;
 	margin: 0.25em auto;
+}
+
+.tagline + .tagline {
+	margin-bottom: 1em;
 }
 
 .highlight {
