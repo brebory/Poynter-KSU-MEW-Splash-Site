@@ -40,6 +40,11 @@ body {
 	margin-bottom: 0;
 }
 
+.date {
+	margin: 0.25em auto;
+	margin-bottom: 2em;
+}
+
 .tagline {
 	font-size: 1.5em;
 	margin: 0.25em auto;
@@ -57,7 +62,7 @@ body {
 	font-size: 0.75em;
 	text-align: center;
 	margin: 0.25em auto;
-	margin-top: 10em;
+	margin-top: 30em;
 }
 
 
