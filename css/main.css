@@ -7,13 +7,8 @@ div, header, footer, p, ul, ol, li, nav, section, article {
 	box-sizing: border-box;
 }
 
-html {
-	background: url('../img/bkgd-01.png') no-repeat center center fixed;
-	background-size: cover;
-}
-
 body {
-	font-size: 12px;
+	font-size: 16px;
 	font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
@@ -30,24 +25,51 @@ body {
 	width: 400px;
 }
 
+.intro-content {
+  text-align: center;
+  border-bottom: solid 3px rgb(189, 214, 49);
+  background: url('../img/bkgd-01.png') no-repeat center;
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .main-content {
 	color: rgb(109, 111, 113);
-	text-transform: uppercase;
+	text-transform: none;
 	text-align: center;
+	font-size: 1.2em;
+	width: 60%;
+   	margin: 0 auto;
 }
 
 .callout-text {
 	color: rgb(189, 214, 49);
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: bold;
 	text-shadow: 2px 2px 0px rgb(109, 111, 113);
-	margin-top: 5em;
-	margin-bottom: 0;
+	margin: 0 auto;
 }
 
 .date {
 	margin: 0.25em auto;
-	margin-bottom: 5em;
+}
+
+.time {
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.location-area {
+  font-size: 1.5em;
+  margin: 0;
+  color: rgb(189, 214, 49);
+}
+
+.location-address {
+  font-size: 0.9em;
+  margin: 0;
+  margin-bottom: 2em;
 }
 
 .tagline {
@@ -59,6 +81,38 @@ body {
 	margin-bottom: 3em;
 }
 
+.stream-link {
+	color: rgb(189, 214, 49);
+}
+
+.main-content-section {
+  text-align: left;
+  margin: 4em auto;
+}
+
+.sponsors {
+  text-align: center;
+  color: rgb(109, 111, 113);
+  background: rgb(220, 220, 220);
+  border-bottom: solid 3px rgb(189, 214, 49); 
+  padding: 2em 0;
+}
+
+.sponsors header {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.sponsors img {
+	display: block;
+	width: 50%;
+	margin: 2em auto;
+
+}
+.main-paragraph {
+  text-transform: default;
+}
+
 .highlight {
 	color: rgb(189, 214, 49);
 }
@@ -67,10 +121,94 @@ body {
 	color: rgb(109, 111, 113);
 	font-size: 0.75em;
 	text-align: center;
-	margin: 0.25em auto;
-	margin-top: 30em;
+	margin: 0 auto;
+	padding: 1em 0;
+	background-color: rgb(50, 51, 53);
 }
 
+.past-events-header {
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.past-events-list {
+	overflow: auto;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.past-events-list li {
+	float: left;
+	display: inline-block;
+}
+
+.past-events-list a {
+	margin: 1em;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.past-events-list a span {
+	display: none;
+}
+
+.past-event-2013 {
+	display: block;
+	width: 185px;
+	height: 75px;
+	background-image: url('../img/poynter2013.png');
+}
+
+.past-event-2012 {
+	display: block;
+	width: 108px;
+	height: 75px;
+	background-image: url('../img/poynter2012.png');
+}
+
+.past-event-2011 {
+	display: block;
+	width: 108px;
+	height: 75px;
+	background-image: url('../img/poynter2011.png');
+}
+
+.past-event-2010 {
+	display: block;
+	width: 112px;
+	height: 125px;
+	background-image: url('../img/poynter2010.png');
+}
+
+.registration-info {
+	font-size: 0.8em;
+}
+
+.copyright {
+	font-size: 0.8em;
+	color: rgb(189, 214, 49);
+}
+
+.two-thirds {
+  width: 63%;
+}
+
+.one-third {
+  width: 30%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
 
 /* AddThisEvent (add to your existing CSS) */
 .addthisevent-drop 						{width:170px;display:inline-block;position:relative;z-index:999998;background:rgb(189, 214, 49);font-family:"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;color:#fff!important;text-decoration:none;font-size:15px;text-decoration:none;padding:12px 20px 12px 15px;}
@@ -88,3 +226,30 @@ body {
 .addthisevent_dropdown .frs 			{position:absolute;top:3px;cursor:pointer;right:10px;padding-left:10px;font-style:normal;font-weight:normal;text-align:right;z-index:101;line-height:110%;background:#fff;text-decoration:none;font-size:10px;color:#cacaca;}
 .addthisevent_dropdown .frs:hover 		{color:#6d84b4;}
 .addthisevent 							{visibility:hidden;}
+
+@media (max-width: 768px) {
+	.main-content {
+		width: 90%;
+	}
+
+	.logo {
+		width: 50%;
+		height: 50%;
+	}
+
+	.past-events-header {
+		width: 90%;
+	}
+
+	.past-events-list {
+		width: 90%;
+	}
+
+  .sponsors header {
+    width: 90%;
+  }
+
+  .sponsors img {
+    width: 90%;
+  }
+}
