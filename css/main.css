@@ -103,6 +103,10 @@ body {
 	margin: 0 auto;
 }
 
+.sponsors h1 {
+  font-size: 1.5em;
+}
+
 .sponsors img {
 	display: block;
 	width: 50%;
