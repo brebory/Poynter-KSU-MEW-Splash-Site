@@ -30,8 +30,8 @@ body {
   border-bottom: solid 3px rgb(189, 214, 49);
   background: url('../img/bkgd-01.png') no-repeat center;
   background-size: cover;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .main-content {
@@ -113,6 +113,12 @@ body {
 	margin: 2em auto;
 
 }
+
+.lead-paragraph {
+	line-height: 1.3em;
+	font-size: 1.1em;
+	font-weight: bold;
+}
 .main-paragraph {
   text-transform: default;
 }
@@ -140,6 +146,7 @@ body {
 	overflow: auto;
 	margin: 0 auto;
 	width: 60%;
+	padding-left: 15em;
 }
 
 .past-events-list li {
@@ -173,7 +180,7 @@ body {
 
 .past-event-2011 {
 	display: block;
-	width: 108px;
+	width: 75px;
 	height: 75px;
 	background-image: url('../img/poynter2011.png');
 }
@@ -181,7 +188,7 @@ body {
 .past-event-2010 {
 	display: block;
 	width: 112px;
-	height: 125px;
+	height: 75px;
 	background-image: url('../img/poynter2010.png');
 }
 
@@ -231,6 +238,12 @@ body {
 .addthisevent_dropdown .frs:hover 		{color:#6d84b4;}
 .addthisevent 							{visibility:hidden;}
 
+@media (min-width: 769px) and (max-width: 1300px) {
+	.past-events-list {
+		padding-left: 5em;
+	}
+}
+
 @media (max-width: 768px) {
 	.main-content {
 		width: 90%;
@@ -247,6 +260,7 @@ body {
 
 	.past-events-list {
 		width: 90%;
+		padding-left: 0;
 	}
 
   .sponsors header {
