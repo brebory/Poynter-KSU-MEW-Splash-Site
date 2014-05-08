@@ -132,35 +132,40 @@ body {
 	font-size: 0.75em;
 	text-align: center;
 	margin: 0 auto;
-	padding: 1em 0;
+	padding: 4em 0;
 	background-color: rgb(50, 51, 53);
 }
 
-.past-events-header {
+.past-events-header, .social-media-header {
 	text-align: center;
 	margin: 0 auto;
 	width: 60%;
 }
 
-.past-events-list {
+.past-events-list, .social-media-icons {
 	overflow: auto;
 	margin: 0 auto;
 	width: 60%;
 	padding-left: 15em;
 }
 
-.past-events-list li {
+.social-media-icons {
+	width: 40%;
+	padding-left: 10em;
+}
+
+.past-events-list li, .social-media-icons li {
 	float: left;
 	display: inline-block;
 }
 
-.past-events-list a {
+.past-events-list a, .social-media-icons a {
 	margin: 1em;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.past-events-list a span {
+.past-events-list a span, .social-media-icons a span {
 	display: none;
 }
 
@@ -190,6 +195,13 @@ body {
 	width: 112px;
 	height: 75px;
 	background-image: url('../img/poynter2010.png');
+}
+
+.social-media-facebook {
+	display: block;
+	width: 75px;
+	height: 75px;
+	background-image: url('../img/facebook-icon.png');
 }
 
 .registration-info {
@@ -242,6 +254,10 @@ body {
 	.past-events-list {
 		padding-left: 5em;
 	}
+
+	.social-media-icons {
+		padding-left: 5em;
+	}
 }
 
 @media (max-width: 768px) {
@@ -254,11 +270,11 @@ body {
 		height: 50%;
 	}
 
-	.past-events-header {
+	.past-events-header, .social-media-header {
 		width: 90%;
 	}
 
-	.past-events-list {
+	.past-events-list, .social-media-icons {
 		width: 90%;
 		padding-left: 0;
 	}
